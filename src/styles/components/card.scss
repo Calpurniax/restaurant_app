@@ -1,0 +1,11 @@
+.card{
+    &__article{  
+        height: 50vh;  
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    &__img{
+        height: 20px;
+    }
+}
