@@ -11,6 +11,7 @@ const Form =()=>{
                 <input type="email" id="email" placeholder="paquita@salas.com"/>
                 <label htmlFor="phone">Teléfono</label>
                 <input type="text" id="phone" placeholder="555-55-55-55"/>
+                <input type="submit" value="enviar" />
             </form>
         </section>
     )
