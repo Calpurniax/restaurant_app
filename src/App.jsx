@@ -1,5 +1,5 @@
 //import { useState } from 'react'
-import './App.css';
+import './App.scss';
 import Header from './components/Header';
 import Reservation from './components/reservation/Reservation';
 import List from './components/list/List';

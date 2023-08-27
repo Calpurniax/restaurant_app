@@ -1,18 +1,23 @@
 @import "../core/variables.scss";
 @import "../core/mixin.scss";
 .form{
-    background-color: $blue;
-    color:white;
+    color: $blue;
+    margin:0 0.5rem 0 0.5rem; 
     margin-top:0.5rem;
+    border-top:$blue 1.5px solid;
+    padding-top:1rem;
+
     &__title{
+        font-family: $title;
         text-align: center;
         font-size: 1.5rem;
         padding-top: 0.5rem;
     }
+
     &__form{
         @include paddingAll;
         padding-right: 3rem;
-        color:$gold;
+        color:$blue;
         display: flex;
         flex-direction: column;
         gap:0.7rem;

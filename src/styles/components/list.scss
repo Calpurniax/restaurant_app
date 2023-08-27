@@ -1,11 +1,16 @@
 @import "../core/variables.scss";
 @import "../core/mixin.scss";
+
 .restaurants{
-    background-color: $blue;
-    color:white;
-    margin-top:0.5rem;   
+    color:$blue;  
+    margin:0 0.5rem 0 0.5rem; 
+    border-top:solid 1.5px $blue;
+    border-bottom: solid 1.5px $blue; 
+    padding-top: 1rem;
 
     &__title{
+        font-family: $title;
+        font-weight: 600;
         text-align: center;
         padding-top: 0.5rem;
         font-size: 1.5rem;
