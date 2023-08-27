@@ -1,9 +1,25 @@
-.list{   
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    height: 30vh;
-    list-style: none;
-    overflow-y:scroll
+@import "../core/variables.scss";
+@import "../core/mixin.scss";
+.restaurants{
+    background-color: $blue;
+    color:white;
+    margin-top:0.5rem;   
+
+    &__title{
+        text-align: center;
+        padding-top: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    &__list{
+        @include paddingAll;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        height: 30vh;
+        list-style: none;
+        overflow-y:scroll
+    }
 }
+
