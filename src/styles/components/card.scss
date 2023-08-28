@@ -4,6 +4,10 @@
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-around;
+        
+        &:hover{       
+           border:solid 1px white;
+        }
     }
     &__img{
         height: 50px;  

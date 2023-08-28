@@ -32,5 +32,16 @@
         height: 30vh;
         list-style: none;     
     }
+    &__arrowContainer{
+        display: flex;
+        justify-content: center;
+        gap:1.5rem;
+        font-size: 1.5rem;
+        &__arrow{
+            &:hover{
+                color:rgba(252, 252, 252, 0.781);
+            }
+        }
+    }
 }
 

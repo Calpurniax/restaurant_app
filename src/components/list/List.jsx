@@ -24,6 +24,10 @@ const List =()=>{
                        title={'Restaurante de Benita'}
                        text={'el mejor de todo el barrio de Salamanca'}/>
                     </ul>
+                    <div className="restaurants__arrowContainer">
+                    <i className="fa-solid fa-caret-left restaurants__arrowContainer__arrow"></i>
+                    <i className="fa-solid fa-caret-right restaurants__arrowContainer__arrow"></i>
+                    </div>
             </div>
         </section>
 )};
