@@ -8,8 +8,8 @@ const Card =({title,text, img})=>{
             <article className="card__article">
                 <img className="card__img" src={img} alt= ""/>
                 <div className="card__textBox">
-                    <h3 className="card__textBox_title">{title}</h3>
-                    <p className="card__textBox_text">{text}</p>
+                    <h3 className="card__textBox__title">{title}</h3>
+                    <p className="card__textBox__text">{text}</p>
                 </div>
             </article>
         </li>

@@ -15,5 +15,8 @@
     }
     &__textBox{
         line-height: 1.5rem;
+        &__title{
+            text-transform:uppercase;
+        }
     }
 }
