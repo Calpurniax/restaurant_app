@@ -9,16 +9,16 @@ const Reservation =()=>{
                 <div className="reservation__dateBox">
                     <div className="reservation__dateBox__date">
                         <label htmlFor="date">Fecha</label>
-                        <input type="date" id="date" />
+                        <input className="reservation__dateBox__input" type="date" id="date" />
                     </div>
                     <div className="reservation__dateBox__date">
                         <label htmlFor="time">Hora</label>
-                        <input type="time" id="time" />
+                        <input className="reservation__dateBox__input" type="time" id="time" />
                     </div>
                 </div>
                 <div>
                     <label htmlFor="people">¿Cuántos?</label>
-                    <input type="number" id="people" />
+                    <input className="reservation__dateBox__input" type="number" id="people" />
                 </div>
             </div>
         </section>

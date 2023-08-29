@@ -9,7 +9,7 @@ const List =()=>{
     return(
         <section className="restaurants">
             <div className="restaurants__container">
-                <h2 className="restaurants__title">Restaurantes</h2>
+                <h2 className="restaurants__title">Recomendados para tí</h2>
                     <ul className="restaurants__list">
                        <Card
                        img={restaurant1}

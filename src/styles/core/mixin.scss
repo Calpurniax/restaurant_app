@@ -9,6 +9,21 @@
         @content;
     }
 }
+
 @mixin paddingAll{    
     padding: 0 0 2rem 3rem;    
+}
+
+@mixin input {
+    border:none;
+            border-bottom: 1px solid $blue;           
+            margin-bottom: 0.5rem;
+            &:hover{
+                background-color: $bkgInputBlue;
+            }
+            &:focus{
+                outline:$gold solid 0.1rem;
+                border-bottom:none              
+               
+            }
 }

@@ -28,5 +28,14 @@
             flex-direction: column;
             gap:0.3rem;
         }
+        &__input{
+            @include input;
+            &:hover{
+                background-color: $bkgInputGold;
+            }
+            &:focus{
+                outline:solid 0.1rem $blue;
+            }
+        }
     }  
 }
