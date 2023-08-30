@@ -13,16 +13,16 @@ const List =()=>{
                     <ul className="restaurants__list">
                        <Card
                        img={restaurant1}
-                       title={'Restaurante de Paca'}
-                       text={'el mejor de todo Carabanchel'}/>
+                       title={'El rincón de Paca'}
+                       text={'Deliciosas hamburguesas con opción vegana'}/>
                        <Card
                        img={restaurant2}
                        title={'Restaurante de Clara'}
-                       text={'el mejor de toda la Latina'}/>
+                       text={'Los mejores poke de toda la Latina'}/>
                        <Card
                        img={restaurant3}
                        title={'Restaurante de Benita'}
-                       text={'el mejor de todo el barrio de Salamanca'}/>
+                       text={'El mejor de todo el barrio de Salamanca'}/>
                     </ul>
                     <div className="restaurants__arrowContainer">
                     <i className="fa-solid fa-caret-left restaurants__arrowContainer__arrow"></i>

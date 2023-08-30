@@ -4,9 +4,11 @@
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-around;
+        padding: 0 1rem 0 1rem;
         
         &:hover{       
-           border:solid 1px white;
+           border-left:solid 1px white;
+           border-right:solid 1px white;
         }
     }
     &__img{
@@ -17,6 +19,6 @@
         line-height: 1.5rem;
         &__title{
             text-transform:uppercase;
-        }
+        }        
     }
 }
