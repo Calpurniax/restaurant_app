@@ -9,10 +9,15 @@
     margin:0 0.5rem 0 0.5rem;     
     padding-top: 1rem;
     padding-bottom: 1rem;
+    
+
     &__container{
         margin:0 1rem 0 1rem;
         background-color: rgba(100, 100, 100, 0.74);
         color:rgb(255, 255, 255);
+        @include tablet{
+            height: 100%;
+        }
     }
 
     &__title{
@@ -22,6 +27,12 @@
         padding-top: 0.5rem;
         padding-bottom: 1rem;
         font-size: 1.5rem;
+        @include tablet{
+            font-size: 2rem;
+            padding-top: 1rem;
+            padding-bottom: 2rem;
+        }
+
     }
 
     &__list{        
@@ -31,7 +42,10 @@
         justify-content: space-around;
         align-items: flex-start;        
         list-style: none; 
-        gap:2rem;    
+        gap:2rem; 
+        @include tablet{
+            height: 70%;
+        }   
     }
     &__arrowContainer{
         display: flex;

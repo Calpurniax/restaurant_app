@@ -3,6 +3,7 @@ const Reservation = () => {
     return (
         <section className="reservation">
             <h2 className="reservation__title">Haz tu reserva</h2>
+            <div className="reservation__title__underline"></div>
             <div className="reservation__container">                
                 <div className="reservation__dateBox">
                     <div className="reservation__dateBox__container">
