@@ -18,6 +18,8 @@
     }
     @include desktop{
         margin-bottom: 1rem;
+        grid-template-rows:0.5fr 1fr 1fr;
+        padding: 0rem 1.5rem 0rem 1.5rem;
     }
     &__title{
        grid-column:2;
@@ -61,6 +63,9 @@
         grid-column:3;
         grid-row:3;
        justify-self: flex-end;
+       @include desktop{
+        padding-bottom: 0.5rem;
+       }
         
     }
 }
