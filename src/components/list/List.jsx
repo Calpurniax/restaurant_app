@@ -1,8 +1,7 @@
 import "../../styles/components/list.scss";
 import restaurant1 from "../../imgs/bar.jpg";
-import restaurant2 from "../../imgs/bol.jpg";
+import restaurant2 from "../../imgs/bowl.jpg";
 import restaurant3 from "../../imgs/restaurant.jpg";
-
 import Card from "./Card";
 
 const List =()=>{

@@ -6,6 +6,9 @@
     color:$blue;
     background-color: $gold;
     margin-top:0.5rem;
+    @include desktop{
+        margin-top: 0;
+    }
 
     &__title{
         font-family: $title;

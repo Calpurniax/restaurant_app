@@ -1,12 +1,11 @@
 @import "../core/variables.scss";
 @import "../core/mixin.scss";
 
-.header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:1rem;
+.header{    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 0.5fr;
+    row-gap: 0.3rem;
     font-family:$header;
     background-color: $gold;  
     color:white;
@@ -14,18 +13,54 @@
     font-size:2rem;  
     padding: 1rem 1.5rem 1rem 1.5rem;
     margin-bottom:0.5rem;
-    @include tablet{
-        height: 10vh;
-        flex-direction: row;
-        justify-content: space-between;
+    @include tablet{       
+       grid-template-rows:0.5fr 2fr 1fr;
     }
+    @include desktop{
+        margin-bottom: 1rem;
+    }
+    &__title{
+       grid-column:2;
+       grid-row:1;
+       align-self: center;      
+       @include tablet{
+        grid-column:1;
+        grid-row:2;
+       }
+    }
+      
     &__searcher{
+        grid-column:2;
+        grid-row:2;
+        align-self: center;
         display: flex;
-        flex-direction: row;
-        align-items: center;
+        flex-direction: row; 
+        @include tablet{
+            justify-self: flex-end;
+        }
+            
         gap:0.5rem;
+        @include tablet{
+            grid-column:3;
+            grid-row:2;
+        }
         &__icon{
             font-size: 1.3rem;
         }
+        &__input{
+            @include input;
+            &:hover{
+                background-color: $bkgInputGold;
+            }
+            &:focus{
+                outline:solid 0.1rem $blue;
+            }
+        }
+    }
+    &__language{
+        grid-column:3;
+        grid-row:3;
+       justify-self: flex-end;
+        
     }
 }

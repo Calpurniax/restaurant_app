@@ -1,0 +1,28 @@
+@import "../core/variables.scss";
+@import "../core/mixin.scss";
+
+.banner{
+    display:none;
+    @include desktop{
+        background-image:url(../../imgs/waiter.jpg);
+        background-size: cover;
+        background-position: bottom center;
+        background-repeat: no-repeat; 
+        margin-left:1%;   
+        display: block;
+        max-width:25% ;
+        &__container{
+            height: 95%;
+            margin:1rem 1rem 3rem 1rem;  
+            padding:0 2rem 0 2rem;          
+            background-color: rgba(100, 100, 100, 0.74);
+            color:white;
+            font-family:$header;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            font-size: 3rem;
+        }
+    }
+}
