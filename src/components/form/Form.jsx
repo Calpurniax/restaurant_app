@@ -9,9 +9,9 @@ const Form =()=>{
                 <label htmlFor="name">Nombre</label>
                 <input className="registration__form__input"type="text" id="name" placeholder="Grace Kelly"/>
                 <label htmlFor="email">E-mail</label>
-                <input className="registration__form__input" type="email" id="email" placeholder="grace@kelly.com"/>
+                <input className="registration__form__input" type="email" id="email" placeholder="grace@kelly.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
                 <label htmlFor="phone">Teléfono</label>
-                <input className="registration__form__input" type="text" id="phone" placeholder="555-55-55-55"/>
+                <input className="registration__form__input" type="text" id="phone" placeholder="555-55-55-55" pattern="[0-9]{9,20}"/>
                <Button/>
             </form>
         </section>
